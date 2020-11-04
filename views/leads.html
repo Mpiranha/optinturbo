@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>All Leads</title>
+</head>
+
+<body>
+    <div class="container-fluid px-0 h-100">
+        <nav class="navbar navbar-expand-sm navbar-light main-nav">
+            <a class="navbar-brand" href="#">
+                <img class="logo-img" src="../img/logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation"></button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav menu ml-auto">
+                    <li class="nav-item">
+                        <div class="workspace-wrap">
+                            <div class="d-flex workspace-details">
+                                <div class="img-workspace">
+                                    <span class="flaticon-user-1 icons default-workspace"></span>
+                                </div>
+                                <div class="workspace-name nav-link" title="Artculture BMC">Artculture BMC</div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+        <div class="d-flex">
+            <div class="sidebar">
+                <nav class="navbar navbar-expand-sm navbar-light px-0">
+                    <div class="collapse navbar-collapse" id="collapsibleNavId">
+                        <ul class="navbar-nav flex-column w-100">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html">
+                                    <span class="flaticon-dashboard icons sidebar-icon"></span>
+                                    Dashboard</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="collapse" href="#campaignCollapse" role="button"
+                                    aria-expanded="false" aria-controls="campaignCollapse">
+                                    <span class="flaticon-plus-sign icons sidebar-icon"></span>
+                                    My Campaigns <span class="flaticon-down-arrow icons collapse-icon"></span></a>
+                                <div class="collapse sidebar-collapse" id="campaignCollapse">
+                                    <nav class="nav flex-column">
+                                        <a class="nav-link" href="new-campaign.html">New campaign</a>
+                                        <a class="nav-link" href="campaign.html">All Campaign</a>
+                                    </nav>
+                                </div>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="leads.html">
+                                    <span class="flaticon-banner icons sidebar-icon"></span>
+                                    Leads</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="polls.html">
+                                    <span class="flaticon-controls icons sidebar-icon"></span>
+                                    Polls</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="all-links.html">
+                                    <span class="flaticon-statistics icons sidebar-icon"></span>
+                                    All Links</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="collapse" href="#settingsCollapse">
+                                    <span class="flaticon-image icons sidebar-icon"></span>
+                                    Settings
+                                    <span class="flaticon-down-arrow icons collapse-icon"></span>
+                                </a>
+                                <div class="collapse sidebar-collapse" id="settingsCollapse">
+                                    <nav class="nav flex-column">
+                                        <a class="nav-link" href="#">Integration</a>
+                                        <a class="nav-link" href="#">Custom Domain</a>
+                                    </nav>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span class="flaticon-portfolio icons sidebar-icon"></span>
+                                    Analytics</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="collapse" href="#supportCollapse">
+                                    <span class="flaticon-gift icons sidebar-icon"></span>
+                                    Support
+                                    <span class="flaticon-down-arrow icons collapse-icon"></span>
+                                </a>
+                                <div class="collapse sidebar-collapse" id="supportCollapse">
+                                    <nav class="nav flex-column">
+                                        <a class="nav-link" href="#">FB Group</a>
+                                        <a class="nav-link" href="#">Training</a>
+                                        <a class="nav-link" href="#">Bonuses</a>
+                                    </nav>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="views/edit-profile.html">
+                                    <span class="flaticon-gear icons sidebar-icon"></span>
+                                    Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="content-section">
+                <div class="container px-4">
+                    <div class="content-header">
+                        <div class="d-flex flex-column">
+                            <h1 class="title">
+                                All Leads
+                            </h1>
+                            <h6 class="desc">
+                                you can choose to export your leads.
+                            </h6>
+                        </div>
+
+
+                        <div class="d-flex">
+                            <div>
+                                <div class="btn-export-tags">
+                                    <a name="" id="" class="btn btn-navigate active" href="#" role="button">Tag</a>
+                                    <a name="" id="" class="btn btn-navigate" href="#" role="button">Export CSV</a>
+                                </div>
+                            </div>
+                            <form class="form-search"><input class="form-control form-noshadow" type="text"
+                                    placeholder="Find recent Leads">
+                                <button class="btn" type="submit">
+                                    <span class="flaticon-search icons search-icon"></span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <table class="table main-table">
+                        <thead>
+                            <tr>
+                                <th>FAV</th>
+                                <th>EMAIL ADDRESS</th>
+                                <th>NAME</th>
+                                <th class="text-center">IS Sync</th>
+                                <th class="text-center">DATE CREATED</th>
+                                <th>ACTION</th>
+                            </tr>
+
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <label class="main-check">
+                                        <input type="checkbox" checked="checked">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </td>
+                                <td>jemzaustin@gmail.com</td>
+                                <td>Austin Ejem</td>
+                                <td class="text-center">
+                                    <span class="flaticon-sync icons-nm"></span>
+                                </td>
+                                <td class="text-center">
+                                    04-04-2020
+                                </td>
+                                <td>
+                                    <div class="table-actions">
+                                        <a href="#">Edit <span class="flaticon-pencil icons icon-actions"></span></a>
+                                        <a href="#">Delete <span class="flaticon-delete icons icon-actions"></span></a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="main-check">
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </td>
+                                <td>jemzaustin@gmail.com</td>
+                                <td>Austin Ejem</td>
+                                <td class="text-center">
+                                    <span class="flaticon-shuffle icons-nm"></span>
+                                </td>
+                                <td class="text-center">
+                                    04-04-2020
+                                </td>
+                                <td>
+                                    <div class="table-actions">
+                                        <a href="#">Edit <span class="flaticon-pencil icons icon-actions"></span></a>
+                                        <a href="#">Delete <span class="flaticon-delete icons icon-actions"></span></a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <nav aria-label="Page navigation" class="navigation">
+                        <ul class="pagination justify-content-end">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">«</span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">»</span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+        </script>
+
+
+        <script src="../js/script.js"></script>
+
+
+</body>
+
+</html>
