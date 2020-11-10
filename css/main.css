@@ -30,7 +30,7 @@
 }
 
 .shorten-form-group .btn-shorten-link {
-    background-color: #8f6fe5;
+    background-color: #8d26e0;
     color: #f2eefd;
     border-radius: 1.5rem;
     font-size: 0.7rem;
@@ -101,7 +101,7 @@ tbody tr:hover {
 
 .btn-grab-link {
     color: #efeaf8;
-    background-color: #866ce0;
+    background-color: #8d26e0;
     width: 100%;
     border-radius: 0.5rem;
 }
@@ -274,7 +274,7 @@ tbody tr:hover {
 
 .leads-box .lead-value {
     width: 100%;
-    background-color: #7a68da;
+    background-color: #8d26e0;
     border-bottom-right-radius: 0.6rem;
     border-bottom-left-radius: 0.6rem;
     padding: 0.3rem 1rem 0.3rem 2rem;
@@ -414,7 +414,7 @@ tbody tr:hover {
 
 
 .social-stat-box.other .social-value {
-    background-color: #7a68da;
+    background-color: #8d26e0;
 }
 
 .pie-desc {
