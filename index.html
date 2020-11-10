@@ -16,104 +16,13 @@
 
 <body>
     <div class="container-fluid px-0 h-100">
-        <nav class="navbar navbar-expand-sm navbar-light main-nav">
-            <a class="navbar-brand" href="#">
-                <img class="logo-img" src="img/logo.png" alt="logo">
-            </a>
-            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
-                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                aria-label="Toggle navigation"></button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <!-- <form class="form-search">
-                    <input class="form-control form-noshadow" type="text" placeholder="Find recent pixels">
-                    <button class="btn" type="submit">
-                        <span class="flaticon-search icons search-icon"></span>
-                    </button>
-                </form> -->
-                <ul class="navbar-nav menu ml-auto">
-                    <li class="nav-item">
-                        <div class="workspace-wrap">
-                            <div class="d-flex workspace-details">
-                                <div class="img-workspace">
-                                    <span class="flaticon-user-1 icons default-workspace"></span>
-                                </div>
-                                <div class="workspace-name nav-link" title="Artculture BMC">Artculture BMC</div>
-                            </div>
-                        </div>
-                    </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <span class="flaticon-user icons menu-icon"></span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <span class="flaticon-notification icons menu-icon"></span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <span class="flaticon-about icons menu-icon"></span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <span class="nav-link option-wrap" href="#">
-                            <span class="flaticon-down-arrow icons drop-icon"></span>
-                            <div class="more-option">
-                                <div class="top-section">
-                                    <div class="user-info">
-                                        <div class="user-image">
-                                            <span class="flaticon-user icons default-user"></span>
-                                        </div>
-                                        <div class="username-wrap">
-                                            <div class="name">
-                                                Ejem Austin
-                                            </div>
-                                            <div class="desc">
-                                                Account settings and more
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="bottom-section">
-                                    <ul class="nav flex-column">
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">
-                                                <span class="flaticon-telemarketer icons dropdown-icons"></span>
-                                                <div class="nav drop-items">
-                                                    <span class="text">Support</span>
-                                                    <span class="desc">Contact Support</span>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#"><span
-                                                    class="flaticon-graduation-hat icons dropdown-icons"></span>
-                                                <div class="nav drop-items">
-                                                    <span class="text">Knowledge Center</span>
-                                                    <span class="desc">Everything explained here</span>
-                                                </div>
 
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">
-                                                <span class="flaticon-logout icons dropdown-icons"></span>
-                                                <span class="text-logout">Logout</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </span>
-                    </li> -->
-                </ul>
-
-            </div>
-        </nav>
         <div class="d-flex">
             <div class="sidebar">
-                <nav class="navbar navbar-expand-sm navbar-light px-0">
+                <nav class="navbar flex-column navbar-expand-sm navbar-light px-0">
+                    <a class="navbar-brand" href="#">
+                        <img class="logo-img" src="img/logo.png" alt="logo">
+                    </a>
                     <div class="collapse navbar-collapse" id="collapsibleNavId">
                         <ul class="navbar-nav flex-column w-100">
                             <li class="nav-item active">
@@ -124,12 +33,12 @@
                             <li class="nav-item">
                                 <a class="nav-link" data-toggle="collapse" href="#campaignCollapse" role="button"
                                     aria-expanded="false" aria-controls="campaignCollapse">
-                                    <span class="flaticon-plus-sign icons sidebar-icon"></span>
+                                    <span class="flaticon-stack-of-papers icons sidebar-icon"></span>
                                     My Campaigns <span class="flaticon-down-arrow icons collapse-icon"></span></a>
                                 <div class="collapse sidebar-collapse" id="campaignCollapse">
                                     <nav class="nav flex-column">
-                                        <a class="nav-link" href="#">New campaign</a>
-                                        <a class="nav-link" href="#">All Campaign</a>
+                                        <a class="nav-link" href="views/new-campaign-1.html">New campaign</a>
+                                        <a class="nav-link" href="views/campaign.html">All Campaign</a>
                                     </nav>
                                 </div>
                             </li>
@@ -140,17 +49,17 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="views/polls.html">
-                                    <span class="flaticon-controls icons sidebar-icon"></span>
+                                    <span class="flaticon-bar-chart icons sidebar-icon"></span>
                                     Polls</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="views/all-links.html">
-                                    <span class="flaticon-statistics icons sidebar-icon"></span>
+                                    <span class="flaticon-link-1 icons sidebar-icon"></span>
                                     All Links</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" data-toggle="collapse" href="#settingsCollapse">
-                                    <span class="flaticon-image icons sidebar-icon"></span>
+                                    <span class="flaticon-gear icons sidebar-icon"></span>
                                     Settings
                                     <span class="flaticon-down-arrow icons collapse-icon"></span>
                                 </a>
@@ -163,12 +72,12 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">
-                                    <span class="flaticon-portfolio icons sidebar-icon"></span>
+                                    <span class="flaticon-analytics icons sidebar-icon"></span>
                                     Analytics</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" data-toggle="collapse" href="#supportCollapse">
-                                    <span class="flaticon-gift icons sidebar-icon"></span>
+                                    <span class="flaticon-telemarketer icons sidebar-icon"></span>
                                     Support
                                     <span class="flaticon-down-arrow icons collapse-icon"></span>
                                 </a>
@@ -182,7 +91,7 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="views/edit-profile.html">
-                                    <span class="flaticon-gear icons sidebar-icon"></span>
+                                    <span class="flaticon-log-out icons sidebar-icon"></span>
                                     Logout</a>
                             </li>
                         </ul>
@@ -191,6 +100,86 @@
             </div>
             <div class="content-section">
                 <div class="container px-4">
+                    <div class="d-flex align-item-end my-3">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <div class="workspace-wrap">
+                                    <div class="d-flex workspace-details">
+                                        <div class="img-workspace">
+                                            <span class="flaticon-user-1 icons default-workspace"></span>
+                                        </div>
+                                        <div class="workspace-name nav-link" title="Artculture BMC">Artculture BMC</div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="flaticon-user icons menu-icon"></span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="flaticon-notification icons menu-icon"></span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="flaticon-about icons menu-icon"></span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <span class="nav-link option-wrap" href="#">
+                                <span class="flaticon-down-arrow icons drop-icon"></span>
+                                <div class="more-option">
+                                    <div class="top-section">
+                                        <div class="user-info">
+                                            <div class="user-image">
+                                                <span class="flaticon-user icons default-user"></span>
+                                            </div>
+                                            <div class="username-wrap">
+                                                <div class="name">
+                                                    Ejem Austin
+                                                </div>
+                                                <div class="desc">
+                                                    Account settings and more
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-section">
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    <span class="flaticon-telemarketer icons dropdown-icons"></span>
+                                                    <div class="nav drop-items">
+                                                        <span class="text">Support</span>
+                                                        <span class="desc">Contact Support</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#"><span
+                                                        class="flaticon-graduation-hat icons dropdown-icons"></span>
+                                                    <div class="nav drop-items">
+                                                        <span class="text">Knowledge Center</span>
+                                                        <span class="desc">Everything explained here</span>
+                                                    </div>
+    
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    <span class="flaticon-logout icons dropdown-icons"></span>
+                                                    <span class="text-logout">Logout</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </span>
+                        </li> -->
+                        </ul>
+                    </div>
                     <div class="my-4">
                         <div class="shorten-form-group">
                             <input type="text" name="" id="" class="form-control form-noshadow"
@@ -387,6 +376,18 @@
 
         <script>
             am4core.ready(function () {
+
+                // /* Define a custom theme */
+                // function am4themes_myTheme(target) {
+                //     if (target instanceof am4charts.Axis) {
+                //         target.background.fill = am4core.color("#DCCCA3");
+                //     }
+                // }
+
+                // /* Apply it */
+                // am4core.useTheme(am4themes_myTheme);
+
+
 
                 // Themes begin
                 am4core.useTheme(am4themes_animated);
@@ -594,387 +595,6 @@
                 }, {
                     "date": "2012-09-25",
                     "value": 67
-                }, {
-                    "date": "2012-09-26",
-                    "value": 65
-                }, {
-                    "date": "2012-09-27",
-                    "value": 61
-                }, {
-                    "date": "2012-09-28",
-                    "value": 66
-                }, {
-                    "date": "2012-09-29",
-                    "value": 69
-                }, {
-                    "date": "2012-09-30",
-                    "value": 71
-                }, {
-                    "date": "2012-10-01",
-                    "value": 67
-                }, {
-                    "date": "2012-10-02",
-                    "value": 63
-                }, {
-                    "date": "2012-10-03",
-                    "value": 46
-                }, {
-                    "date": "2012-10-04",
-                    "value": 32
-                }, {
-                    "date": "2012-10-05",
-                    "value": 21
-                }, {
-                    "date": "2012-10-06",
-                    "value": 18
-                }, {
-                    "date": "2012-10-07",
-                    "value": 21
-                }, {
-                    "date": "2012-10-08",
-                    "value": 28
-                }, {
-                    "date": "2012-10-09",
-                    "value": 27
-                }, {
-                    "date": "2012-10-10",
-                    "value": 36
-                }, {
-                    "date": "2012-10-11",
-                    "value": 33
-                }, {
-                    "date": "2012-10-12",
-                    "value": 31
-                }, {
-                    "date": "2012-10-13",
-                    "value": 30
-                }, {
-                    "date": "2012-10-14",
-                    "value": 34
-                }, {
-                    "date": "2012-10-15",
-                    "value": 38
-                }, {
-                    "date": "2012-10-16",
-                    "value": 37
-                }, {
-                    "date": "2012-10-17",
-                    "value": 44
-                }, {
-                    "date": "2012-10-18",
-                    "value": 49
-                }, {
-                    "date": "2012-10-19",
-                    "value": 53
-                }, {
-                    "date": "2012-10-20",
-                    "value": 57
-                }, {
-                    "date": "2012-10-21",
-                    "value": 60
-                }, {
-                    "date": "2012-10-22",
-                    "value": 61
-                }, {
-                    "date": "2012-10-23",
-                    "value": 69
-                }, {
-                    "date": "2012-10-24",
-                    "value": 67
-                }, {
-                    "date": "2012-10-25",
-                    "value": 72
-                }, {
-                    "date": "2012-10-26",
-                    "value": 77
-                }, {
-                    "date": "2012-10-27",
-                    "value": 75
-                }, {
-                    "date": "2012-10-28",
-                    "value": 70
-                }, {
-                    "date": "2012-10-29",
-                    "value": 72
-                }, {
-                    "date": "2012-10-30",
-                    "value": 70
-                }, {
-                    "date": "2012-10-31",
-                    "value": 72
-                }, {
-                    "date": "2012-11-01",
-                    "value": 73
-                }, {
-                    "date": "2012-11-02",
-                    "value": 67
-                }, {
-                    "date": "2012-11-03",
-                    "value": 68
-                }, {
-                    "date": "2012-11-04",
-                    "value": 65
-                }, {
-                    "date": "2012-11-05",
-                    "value": 71
-                }, {
-                    "date": "2012-11-06",
-                    "value": 75
-                }, {
-                    "date": "2012-11-07",
-                    "value": 74
-                }, {
-                    "date": "2012-11-08",
-                    "value": 71
-                }, {
-                    "date": "2012-11-09",
-                    "value": 76
-                }, {
-                    "date": "2012-11-10",
-                    "value": 77
-                }, {
-                    "date": "2012-11-11",
-                    "value": 81
-                }, {
-                    "date": "2012-11-12",
-                    "value": 83
-                }, {
-                    "date": "2012-11-13",
-                    "value": 80
-                }, {
-                    "date": "2012-11-14",
-                    "value": 81
-                }, {
-                    "date": "2012-11-15",
-                    "value": 87
-                }, {
-                    "date": "2012-11-16",
-                    "value": 82
-                }, {
-                    "date": "2012-11-17",
-                    "value": 86
-                }, {
-                    "date": "2012-11-18",
-                    "value": 80
-                }, {
-                    "date": "2012-11-19",
-                    "value": 87
-                }, {
-                    "date": "2012-11-20",
-                    "value": 83
-                }, {
-                    "date": "2012-11-21",
-                    "value": 85
-                }, {
-                    "date": "2012-11-22",
-                    "value": 84
-                }, {
-                    "date": "2012-11-23",
-                    "value": 82
-                }, {
-                    "date": "2012-11-24",
-                    "value": 73
-                }, {
-                    "date": "2012-11-25",
-                    "value": 71
-                }, {
-                    "date": "2012-11-26",
-                    "value": 75
-                }, {
-                    "date": "2012-11-27",
-                    "value": 79
-                }, {
-                    "date": "2012-11-28",
-                    "value": 70
-                }, {
-                    "date": "2012-11-29",
-                    "value": 73
-                }, {
-                    "date": "2012-11-30",
-                    "value": 61
-                }, {
-                    "date": "2012-12-01",
-                    "value": 62
-                }, {
-                    "date": "2012-12-02",
-                    "value": 66
-                }, {
-                    "date": "2012-12-03",
-                    "value": 65
-                }, {
-                    "date": "2012-12-04",
-                    "value": 73
-                }, {
-                    "date": "2012-12-05",
-                    "value": 79
-                }, {
-                    "date": "2012-12-06",
-                    "value": 78
-                }, {
-                    "date": "2012-12-07",
-                    "value": 78
-                }, {
-                    "date": "2012-12-08",
-                    "value": 78
-                }, {
-                    "date": "2012-12-09",
-                    "value": 74
-                }, {
-                    "date": "2012-12-10",
-                    "value": 73
-                }, {
-                    "date": "2012-12-11",
-                    "value": 75
-                }, {
-                    "date": "2012-12-12",
-                    "value": 70
-                }, {
-                    "date": "2012-12-13",
-                    "value": 77
-                }, {
-                    "date": "2012-12-14",
-                    "value": 67
-                }, {
-                    "date": "2012-12-15",
-                    "value": 62
-                }, {
-                    "date": "2012-12-16",
-                    "value": 64
-                }, {
-                    "date": "2012-12-17",
-                    "value": 61
-                }, {
-                    "date": "2012-12-18",
-                    "value": 59
-                }, {
-                    "date": "2012-12-19",
-                    "value": 53
-                }, {
-                    "date": "2012-12-20",
-                    "value": 54
-                }, {
-                    "date": "2012-12-21",
-                    "value": 56
-                }, {
-                    "date": "2012-12-22",
-                    "value": 59
-                }, {
-                    "date": "2012-12-23",
-                    "value": 58
-                }, {
-                    "date": "2012-12-24",
-                    "value": 55
-                }, {
-                    "date": "2012-12-25",
-                    "value": 52
-                }, {
-                    "date": "2012-12-26",
-                    "value": 54
-                }, {
-                    "date": "2012-12-27",
-                    "value": 50
-                }, {
-                    "date": "2012-12-28",
-                    "value": 50
-                }, {
-                    "date": "2012-12-29",
-                    "value": 51
-                }, {
-                    "date": "2012-12-30",
-                    "value": 52
-                }, {
-                    "date": "2012-12-31",
-                    "value": 58
-                }, {
-                    "date": "2013-01-01",
-                    "value": 60
-                }, {
-                    "date": "2013-01-02",
-                    "value": 67
-                }, {
-                    "date": "2013-01-03",
-                    "value": 64
-                }, {
-                    "date": "2013-01-04",
-                    "value": 66
-                }, {
-                    "date": "2013-01-05",
-                    "value": 60
-                }, {
-                    "date": "2013-01-06",
-                    "value": 63
-                }, {
-                    "date": "2013-01-07",
-                    "value": 61
-                }, {
-                    "date": "2013-01-08",
-                    "value": 60
-                }, {
-                    "date": "2013-01-09",
-                    "value": 65
-                }, {
-                    "date": "2013-01-10",
-                    "value": 75
-                }, {
-                    "date": "2013-01-11",
-                    "value": 77
-                }, {
-                    "date": "2013-01-12",
-                    "value": 78
-                }, {
-                    "date": "2013-01-13",
-                    "value": 70
-                }, {
-                    "date": "2013-01-14",
-                    "value": 70
-                }, {
-                    "date": "2013-01-15",
-                    "value": 73
-                }, {
-                    "date": "2013-01-16",
-                    "value": 71
-                }, {
-                    "date": "2013-01-17",
-                    "value": 74
-                }, {
-                    "date": "2013-01-18",
-                    "value": 78
-                }, {
-                    "date": "2013-01-19",
-                    "value": 85
-                }, {
-                    "date": "2013-01-20",
-                    "value": 82
-                }, {
-                    "date": "2013-01-21",
-                    "value": 83
-                }, {
-                    "date": "2013-01-22",
-                    "value": 88
-                }, {
-                    "date": "2013-01-23",
-                    "value": 85
-                }, {
-                    "date": "2013-01-24",
-                    "value": 85
-                }, {
-                    "date": "2013-01-25",
-                    "value": 80
-                }, {
-                    "date": "2013-01-26",
-                    "value": 87
-                }, {
-                    "date": "2013-01-27",
-                    "value": 84
-                }, {
-                    "date": "2013-01-28",
-                    "value": 83
-                }, {
-                    "date": "2013-01-29",
-                    "value": 84
-                }, {
-                    "date": "2013-01-30",
-                    "value": 81
                 }];
 
                 // Set inner radius
@@ -1003,52 +623,72 @@
 
                 // Create axes
                 var dateAxis = columnChart.xAxes.push(new am4charts.DateAxis());
+                dateAxis.renderer.grid.template.location = 0;
+                dateAxis.renderer.minGridDistance = 50;
                 var valueAxis = columnChart.yAxes.push(new am4charts.ValueAxis());
-
+                
                 // Create series
                 var series = columnChart.series.push(new am4charts.LineSeries());
                 series.dataFields.valueY = "value";
                 series.dataFields.dateX = "date";
                 series.tooltipText = "{value}"
+                // series.stroke = am4core.color("#d5cbdd");
+                // series.propertyFields.fill = "#f2e7fb";
                 series.strokeWidth = 2;
-                series.minBulletDistance = 15;
+                series.fillOpacity = 0.5;
+                // series.minBulletDistance = 15;
 
-                // Drop-shaped tooltips
-                series.tooltip.background.cornerRadius = 20;
-                series.tooltip.background.strokeOpacity = 0;
-                series.tooltip.pointerOrientation = "vertical";
-                series.tooltip.label.minWidth = 40;
-                series.tooltip.label.minHeight = 40;
-                series.tooltip.label.textAlign = "middle";
-                series.tooltip.label.textValign = "middle";
+                // // Drop-shaped tooltips
+                // series.tooltip.background.cornerRadius = 20;
+                // series.tooltip.background.strokeOpacity = 0;
+                // series.tooltip.pointerOrientation = "vertical";
+                // series.tooltip.label.minWidth = 40;
+                // series.tooltip.label.minHeight = 40;
+                // series.tooltip.label.textAlign = "middle";
+                // series.tooltip.label.textValign = "middle";
 
-                // Make bullets grow on hover
-                var bullet = series.bullets.push(new am4charts.CircleBullet());
-                bullet.circle.strokeWidth = 2;
-                bullet.circle.radius = 4;
-                bullet.circle.fill = am4core.color("#fff");
+                // // Make bullets grow on hover
+                // var bullet = series.bullets.push(new am4charts.CircleBullet());
+                // bullet.circle.strokeWidth = 2;
+                // bullet.circle.radius = 4;
+                // bullet.circle.fill = am4core.color("#fff");
 
-                var bullethover = bullet.states.create("hover");
-                bullethover.properties.scale = 1.3;
+                // var bullethover = bullet.states.create("hover");
+                // bullethover.properties.scale = 1.3;
 
-                // Make a panning cursor
-                columnChart.cursor = new am4charts.XYCursor();
-                columnChart.cursor.behavior = "panXY";
-                columnChart.cursor.xAxis = dateAxis;
-                columnChart.cursor.snapToSeries = series;
+                // // Make a panning cursor
+                // columnChart.cursor = new am4charts.XYCursor();
+                // columnChart.cursor.behavior = "panXY";
+                // columnChart.cursor.xAxis = dateAxis;
+                // columnChart.cursor.snapToSeries = series;
 
-                // Create vertical scrollbar and place it before the value axis
+                // // Create vertical scrollbar and place it before the value axis
+                // columnChart.scrollbarY = new am4core.Scrollbar();
+                // columnChart.scrollbarY.parent = columnChart.leftAxesContainer;
+                // columnChart.scrollbarY.toBack();
+
+                // // Create a horizontal scrollbar with previe and place it underneath the date axis
+                // columnChart.scrollbarX = new am4charts.XYChartScrollbar();
+                // columnChart.scrollbarX.series.push(series);
+                // columnChart.scrollbarX.parent = columnChart.bottomAxesContainer;
+
+                // dateAxis.start = 0.79;
+                // dateAxis.keepSelection = true;
+
+                // Add vertical scrollbar
                 columnChart.scrollbarY = new am4core.Scrollbar();
-                columnChart.scrollbarY.parent = columnChart.leftAxesContainer;
-                columnChart.scrollbarY.toBack();
+                columnChart.scrollbarY.marginLeft = 0;
 
-                // Create a horizontal scrollbar with previe and place it underneath the date axis
-                columnChart.scrollbarX = new am4charts.XYChartScrollbar();
-                columnChart.scrollbarX.series.push(series);
-                columnChart.scrollbarX.parent = columnChart.bottomAxesContainer;
+                // Add cursor
+                columnChart.cursor = new am4charts.XYCursor();
+                columnChart.cursor.behavior = "zoomY";
+                columnChart.cursor.lineX.disabled = true;
 
-                dateAxis.start = 0.79;
-                dateAxis.keepSelection = true;
+                var bullet = series.bullets.push(new am4charts.CircleBullet());
+                bullet.circle.radius = 2;
+                bullet.circle.fill = am4core.color("#d5cbdd");
+                bullet.circle.strokeWidth = 2;
+
 
             }); // end am4core.ready()
         </script>

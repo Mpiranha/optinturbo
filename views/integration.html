@@ -11,7 +11,7 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/main.css">
-    <title>Campaign</title>
+    <title>Custom domain</title>
 </head>
 
 <body>
@@ -30,7 +30,7 @@
                                     <span class="flaticon-dashboard icons sidebar-icon"></span>
                                     Dashboard</a>
                             </li>
-                            <li class="nav-item active">
+                            <li class="nav-item">
                                 <a class="nav-link" data-toggle="collapse" href="#campaignCollapse" role="button"
                                     aria-expanded="false" aria-controls="campaignCollapse">
                                     <span class="flaticon-stack-of-papers icons sidebar-icon"></span>
@@ -57,7 +57,7 @@
                                     <span class="flaticon-link-1 icons sidebar-icon"></span>
                                     All Links</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item active">
                                 <a class="nav-link" data-toggle="collapse" href="#settingsCollapse">
                                     <span class="flaticon-gear icons sidebar-icon"></span>
                                     Settings
@@ -180,214 +180,154 @@
                         </li> -->
                         </ul>
                     </div>
-                    <div class="content-header mt-4 mb-3">
-                        <div class="d-flex flex-column">
-                            <h1 class="title">
-                                New Campaign
-                            </h1>
-                            <h6 class="desc">
-                                Select a lead magnet to get started.
-                            </h6>
-                        </div>
+                    <nav class="nav nav-set-steps">
+                        <li class="nav-item">
+                            <a class="nav-link" href="user-setting.html">User Settings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="custom-domain.html">Custom Domain</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="integration.html">Integration</a>
+                        </li>
+                    </nav>
 
-                    </div>
+                    <h1 class="title">
+                        Integration
+                    </h1>
 
-                    <div class="content-header mt-0">
-                        <div class="steps-guide">
-                            <span class="first-step active">1</span>
-                            <span class="step-value">
-                                PICK A LEAD MAGNET
-                            </span>
-                            <span class="steps">2</span>
-                            <span class="step-value">
-                                PICK AND EDIT TEMPLATE
-                            </span>
-                            <span class="steps">3</span>
-                            <span class="step-value">
-                                GO VIRAL
-                            </span>
-                        </div>
-                        <div class="d-flex">
-                            <div class="mr-3">
-
-                                <select id="category" class="form-control" name="">
-                                    <option value="none" selected>Category</option>
-                                </select>
-
-                            </div>
-                            <form class="form-search"><input class="form-control form-noshadow" type="text"
-                                    placeholder="Find recent Leads">
-                                <button class="btn" type="submit">
-                                    <span class="flaticon-search icons search-icon"></span>
-                                </button>
-                            </form>
-
-                            <div class="dropdown">
-                                <button id="my-dropdown" class="btn btn-filter dropdown-toggle" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false"><span
-                                        class="flaticon-funnel icons-nm filter-icon"></span> Filter</button>
-                                <div class="dropdown-menu" aria-labelledby="my-dropdown">
-                                    <a class="dropdown-item active" href="#">Text</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="row mt-5">
-                        <div class="col-4">
-                            <div class="lead-box">
-                                <span class="flaticon-gear icons-nm setting-icon"></span>
-                                <div class="lead-img">
-                                    <img class="img-fluid" src="" alt="">
-                                </div>
-                                <div class="lead-content">
-                                    <h1 class="title">Lead Title</h1>
-                                    <div class="lead-body">
-                                        Lurem ipsum dolor dulum dele solo menu pulum lurem
-                                        Lurem ipsum dolor dulum dele
+                    <div class="row">
+                        <div class="col-9">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="integration-box">
+                                        <img src="../img/pinterest.png" alt="" srcset="">
+                                        <p class="title">
+                                            MyApi
+                                        </p>
                                     </div>
-                                    <button data-toggle="modal" data-target="#modal-create" class="btn btn-select-lead">Select Lead Magnet</button>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="lead-box">
-                                <span class="flaticon-gear icons-nm setting-icon"></span>
-                                <div class="lead-img">
-                                    <img class="img-fluid" src="" alt="">
-                                </div>
-                                <div class="lead-content">
-                                    <h1 class="title">Lead Title</h1>
-                                    <div class="lead-body">
-                                        Lurem ipsum dolor dulum dele solo menu pulum lurem
-                                        Lurem ipsum dolor dulum dele
+                                <div class="col-3">
+                                    <div class="integration-box">
+                                        <img src="../img/pinterest.png" alt="" srcset="">
+                                        <p class="title">
+                                            Aweber
+                                        </p>
                                     </div>
-                                    <button data-toggle="modal" data-target="#modal-create" class="btn btn-select-lead">Select Lead Magnet</button>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="lead-box">
-                                <span class="flaticon-gear icons-nm setting-icon"></span>
-                                <div class="lead-img">
-                                    <img class="img-fluid" src="" alt="">
-                                </div>
-                                <div class="lead-content">
-                                    <h1 class="title">Lead Title</h1>
-                                    <div class="lead-body">
-                                        Lurem ipsum dolor dulum dele solo menu pulum lurem
-                                        Lurem ipsum dolor dulum dele
+                                <div class="col-3">
+                                    <div class="integration-box">
+                                        <img src="../img/pinterest.png" alt="" srcset="">
+                                        <p class="title">
+                                            ActiveCampaign
+                                        </p>
                                     </div>
-                                    <button data-toggle="modal" data-target="#modal-create" class="btn btn-select-lead">Select Lead Magnet</button>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="lead-box">
-                                <span class="flaticon-gear icons-nm setting-icon"></span>
-                                <div class="lead-img">
-                                    <img class="img-fluid" src="" alt="">
-                                </div>
-                                <div class="lead-content">
-                                    <h1 class="title">Lead Title</h1>
-                                    <div class="lead-body">
-                                        Lurem ipsum dolor dulum dele solo menu pulum lurem
-                                        Lurem ipsum dolor dulum dele
+                                <div class="col-3">
+                                    <div class="integration-box">
+                                        <img src="../img/pinterest.png" alt="" srcset="">
+                                        <p class="title">
+                                            GetResponse
+                                        </p>
                                     </div>
-                                    <button data-toggle="modal" data-target="#modal-create" class="btn btn-select-lead">Select Lead Magnet</button>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="lead-box">
-                                <span class="flaticon-gear icons-nm setting-icon"></span>
-                                <div class="lead-img">
-                                    <img class="img-fluid" src="" alt="">
-                                </div>
-                                <div class="lead-content">
-                                    <h1 class="title">Lead Title</h1>
-                                    <div class="lead-body">
-                                        Lurem ipsum dolor dulum dele solo menu pulum lurem
-                                        Lurem ipsum dolor dulum dele
+                                <div class="col-3">
+                                    <div class="integration-box">
+                                        <img src="../img/pinterest.png" alt="" srcset="">
+                                        <p class="title">
+                                            MailChimp
+                                        </p>
                                     </div>
-                                    <button data-toggle="modal" data-target="#modal-create" class="btn btn-select-lead">Select Lead Magnet</button>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="lead-box">
-                                <span class="flaticon-gear icons-nm setting-icon"></span>
-                                <div class="lead-img">
-                                    <img class="img-fluid" src="" alt="">
-                                </div>
-                                <div class="lead-content">
-                                    <h1 class="title">Lead Title</h1>
-                                    <div class="lead-body">
-                                        Lurem ipsum dolor dulum dele solo menu pulum lurem
-                                        Lurem ipsum dolor dulum dele
+                                <div class="col-3">
+                                    <div class="integration-box">
+                                        <img src="../img/pinterest.png" alt="" srcset="">
+                                        <p class="title">
+                                            ConvertKit
+                                        </p>
                                     </div>
-                                    <button data-toggle="modal" data-target="#modal-create" class="btn btn-select-lead">Select Lead Magnet</button>
                                 </div>
+
                             </div>
                         </div>
                     </div>
 
+                    <table class="table main-table polls-table">
+                        <thead>
+                            <tr>
+                                <th>LIST NAME</th>
+                                <th>API KEY</th>
+                                <th class="text-center">TYPE</th>
+                                <th class="text-center">CREATED</th>
+                                <th>ACTION</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a href="#">Freelance list</a>
+                                </td>
+                                <td>
+                                    <div class="copy-link-wrap">
+                                        <a href="#">24872e2ce69823e6a3511bd58e605982981aa4702258aeb1552d7184f1611e</a>
+                                        <span class="flaticon-copy copy-icon-sm"></span>
+                                    </div>
+                                </td>
+                                <td>ActiveChamp</td>
+                                <td>25-01-2020</td>
 
+                                <td>
+                                    <div class="table-actions">
+                                        <a href="#">Delete <span class="flaticon-delete icons icon-actions"></span></a>
+                                    </div>
+                                </td>
+                            </tr>
 
+                        </tbody>
+                    </table>
 
-
+                    <nav aria-label="Page navigation" class="navigation">
+                        <ul class="pagination justify-content-end">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">«</span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">»</span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-            </div>
 
-            <div class="modal fade" id="modal-create" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <!-- <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-                            
-                        </div> -->
-                        <div class="modal-body">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">×</span>
-                            </button>
-                            <div class="error"></div>
-                            <form action="" method="post" id="workspace-form">
-                                <label for="workspace-input">Name Your Campaign</label>
-                                <div class="workspace-input-main">
-                                    <input id="workspace-input" class="form-control form-input" type="text" name="">
-                                    <button class="btn btn-create-workspace">
-                                        CREATE
-                                    </button>
-                                </div>
-                            </form>
-                            <div class="info">
-                                <span class="flaticon-information icons info-icon"></span>
-                                Confused? Click Here to watch a quick demo
-                            </div>
-                        </div>
-                        <!-- <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div> -->
-                    </div>
-                </div>
+
+
+
+
             </div>
         </div>
+    </div>
 
 
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-        </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-        </script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-        </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
 
 
-        <script src="../js/script.js"></script>
+    <script src="../js/script.js"></script>
 
 
 </body>

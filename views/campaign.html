@@ -16,32 +16,13 @@
 
 <body>
     <div class="container-fluid px-0 h-100">
-        <nav class="navbar navbar-expand-sm navbar-light main-nav">
-            <a class="navbar-brand" href="#">
-                <img class="logo-img" src="../img/logo.png" alt="logo">
-            </a>
-            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
-                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                aria-label="Toggle navigation"></button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <ul class="navbar-nav menu ml-auto">
-                    <li class="nav-item">
-                        <div class="workspace-wrap">
-                            <div class="d-flex workspace-details">
-                                <div class="img-workspace">
-                                    <span class="flaticon-user-1 icons default-workspace"></span>
-                                </div>
-                                <div class="workspace-name nav-link" title="Artculture BMC">Artculture BMC</div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-
-            </div>
-        </nav>
+    
         <div class="d-flex">
             <div class="sidebar">
-                <nav class="navbar navbar-expand-sm navbar-light px-0">
+                <nav class="navbar flex-column navbar-expand-sm navbar-light px-0">
+                    <a class="navbar-brand" href="#">
+                        <img class="logo-img" src="../img/logo.png" alt="logo">
+                    </a>
                     <div class="collapse navbar-collapse" id="collapsibleNavId">
                         <ul class="navbar-nav flex-column w-100">
                             <li class="nav-item">
@@ -52,11 +33,11 @@
                             <li class="nav-item active">
                                 <a class="nav-link" data-toggle="collapse" href="#campaignCollapse" role="button"
                                     aria-expanded="false" aria-controls="campaignCollapse">
-                                    <span class="flaticon-plus-sign icons sidebar-icon"></span>
+                                    <span class="flaticon-stack-of-papers icons sidebar-icon"></span>
                                     My Campaigns <span class="flaticon-down-arrow icons collapse-icon"></span></a>
                                 <div class="collapse sidebar-collapse" id="campaignCollapse">
                                     <nav class="nav flex-column">
-                                        <a class="nav-link" href="new-campaign.html">New campaign</a>
+                                        <a class="nav-link" href="new-campaign-1.html">New campaign</a>
                                         <a class="nav-link" href="campaign.html">All Campaign</a>
                                     </nav>
                                 </div>
@@ -68,35 +49,35 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="polls.html">
-                                    <span class="flaticon-controls icons sidebar-icon"></span>
+                                    <span class="flaticon-bar-chart icons sidebar-icon"></span>
                                     Polls</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="all-links.html">
-                                    <span class="flaticon-statistics icons sidebar-icon"></span>
+                                    <span class="flaticon-link-1 icons sidebar-icon"></span>
                                     All Links</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" data-toggle="collapse" href="#settingsCollapse">
-                                    <span class="flaticon-image icons sidebar-icon"></span>
+                                    <span class="flaticon-gear icons sidebar-icon"></span>
                                     Settings
                                     <span class="flaticon-down-arrow icons collapse-icon"></span>
                                 </a>
                                 <div class="collapse sidebar-collapse" id="settingsCollapse">
                                     <nav class="nav flex-column">
-                                        <a class="nav-link" href="#">Integration</a>
-                                        <a class="nav-link" href="#">Custom Domain</a>
+                                        <a class="nav-link" href="integration.html">Integration</a>
+                                        <a class="nav-link" href="custom-domain.html">Custom Domain</a>
                                     </nav>
                                 </div>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">
-                                    <span class="flaticon-portfolio icons sidebar-icon"></span>
+                                    <span class="flaticon-analytics icons sidebar-icon"></span>
                                     Analytics</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" data-toggle="collapse" href="#supportCollapse">
-                                    <span class="flaticon-gift icons sidebar-icon"></span>
+                                    <span class="flaticon-telemarketer icons sidebar-icon"></span>
                                     Support
                                     <span class="flaticon-down-arrow icons collapse-icon"></span>
                                 </a>
@@ -109,8 +90,8 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="views/edit-profile.html">
-                                    <span class="flaticon-gear icons sidebar-icon"></span>
+                                <a class="nav-link" href="edit-profile.html">
+                                    <span class="flaticon-log-out icons sidebar-icon"></span>
                                     Logout</a>
                             </li>
                         </ul>
@@ -119,6 +100,86 @@
             </div>
             <div class="content-section">
                 <div class="container px-4">
+                    <div class="d-flex align-item-end my-3">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <div class="workspace-wrap">
+                                    <div class="d-flex workspace-details">
+                                        <div class="img-workspace">
+                                            <span class="flaticon-user-1 icons default-workspace"></span>
+                                        </div>
+                                        <div class="workspace-name nav-link" title="Artculture BMC">Artculture BMC</div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="flaticon-user icons menu-icon"></span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="flaticon-notification icons menu-icon"></span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="flaticon-about icons menu-icon"></span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <span class="nav-link option-wrap" href="#">
+                                <span class="flaticon-down-arrow icons drop-icon"></span>
+                                <div class="more-option">
+                                    <div class="top-section">
+                                        <div class="user-info">
+                                            <div class="user-image">
+                                                <span class="flaticon-user icons default-user"></span>
+                                            </div>
+                                            <div class="username-wrap">
+                                                <div class="name">
+                                                    Ejem Austin
+                                                </div>
+                                                <div class="desc">
+                                                    Account settings and more
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-section">
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    <span class="flaticon-telemarketer icons dropdown-icons"></span>
+                                                    <div class="nav drop-items">
+                                                        <span class="text">Support</span>
+                                                        <span class="desc">Contact Support</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#"><span
+                                                        class="flaticon-graduation-hat icons dropdown-icons"></span>
+                                                    <div class="nav drop-items">
+                                                        <span class="text">Knowledge Center</span>
+                                                        <span class="desc">Everything explained here</span>
+                                                    </div>
+    
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    <span class="flaticon-logout icons dropdown-icons"></span>
+                                                    <span class="text-logout">Logout</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </span>
+                        </li> -->
+                        </ul>
+                    </div>
                     <div class="content-header mt-4 mb-3">
                         <div class="d-flex flex-column">
                             <h1 class="title">
@@ -198,14 +259,16 @@
                                 </td>
                                 <td>
                                     <div class="table-more-action">
-                                        <button class="btn btn-action-viral">GO viral</button>
-                                        <button class="btn btn-action-share">Share</button>
+                                        <button data-toggle="modal" data-target="#modal-viral"
+                                            class="btn btn-action-viral">GO viral</button>
+                                        <button data-toggle="modal" data-target="#modal-share"
+                                            class="btn btn-action-share">Share</button>
                                     </div>
                                 </td>
                                 <td>
-                                    <button class="btn btn-grab-link">EMBED CODE <span
+                                    <button data-toggle="modal" data-target="#modal-embed" class="btn btn-grab-link">EMBED CODE <span
                                             class="flaticon-settings embed-icon"></span>
-                                        </button>
+                                    </button>
                                 </td>
                             </tr>
 
@@ -233,6 +296,163 @@
 
 
 
+                </div>
+            </div>
+
+            <div class="modal fade" id="modal-viral" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <!-- <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                            
+                        </div> -->
+                        <div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+
+                            <nav class="nav justify-content-between align-items-center go-viral-modal">
+                                <a class="nav-link" href="#">
+                                    <img src="../img/facebook.png" alt="">
+                                </a>
+                                <a class="nav-link" href="#">
+                                    <img src="../img/twitter.svg" alt="">
+                                </a>
+                                <a class="nav-link" href="#">
+                                    <img src="../img/pinterest.png" alt="">
+                                </a>
+                            </nav>
+
+
+                        </div>
+                        <!-- <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modal-share" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <!-- <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                            
+                        </div> -->
+                        <div class="modal-body px-2">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+
+                            <div class="d-flex">
+                                <div class="connected-medias">
+                                    <div class="media-box">
+                                        <img class="img-fluid" src="../img/facebook.png" alt="">
+                                        <span class="flaticon-checked icons-nm checked-icon"></span>
+                                    </div>
+
+                                    <div class="media-box">
+                                        <img class="img-fluid" src="../img/twitter.svg" alt="">
+                                        <span class="flaticon-checked icons-nm checked-icon"></span>
+                                    </div>
+
+                                    <div class="media-box">
+                                        <img class="img-fluid" src="../img/pinterest.png" alt="">
+                                        <span class="flaticon-checked icons-nm checked-icon"></span>
+                                    </div>
+                                </div>
+                                <div class="schedule-form">
+                                    <h1 class="title">Customise Your Post</h1>
+                                    <form action="" method="post">
+                                        <div class="form-group">
+                                            <label for="">Link to Share</label>
+                                            <input type="text" name="" id="" class="form-control"
+                                                placeholder="http://www.domain.com/destination">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="upload-wrap-thumb" for="">
+                                                <span class="flaticon-download icons-nm mr-1"></span>
+                                                Upload Thumbnail
+                                                <input class="thumb-input" type="file" name="" id="">
+                                            </label>
+                                            <textarea id="" class="form-control" name="" rows="3"
+                                                placeholder="Share this..."></textarea>
+                                        </div>
+
+                                        <h1 class="header">
+                                            Schedule
+                                        </h1>
+                                        <h2 class="title">Set a time to post</h2>
+                                        <div class="form-group mt-2">
+                                            <select id="my-select" class="form-control" name="">
+                                                <option>Post Later</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="date" class="form-control" name="" id="" placeholder="">
+                                            <input type="time" class="form-control" name="" id="" placeholder="">
+                                        </div>
+
+                                        <div class="d-flex justify-content-end">
+                                            <button class="btn btn-post">Post</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!-- <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modal-embed" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <!-- <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                        
+                    </div> -->
+                        <div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+
+                            <div class="embed-form">
+                                <div class="form-group">
+                                    <label for="popup-behavior">Popup Behavior</label>
+                                    <select id="popup-behavior" class="form-control" name="">
+                                        <option>Select Behavior</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="popup-behavior">Effect</label>
+                                    <select id="popup-behavior" class="form-control" name="">
+                                        <option>Select Effect</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="">Copy embed code</label>
+                                    <textarea id="" class="form-control" name="" rows="4">script goes here
+                                    </textarea>
+                                </div>
+                                <div class="d-flex justify-content-end">
+                                    <button class="btn btn-post">Save</button>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

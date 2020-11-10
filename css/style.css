@@ -11,6 +11,7 @@ body {
     width: 100%;
     height: 100%;
     overflow: hidden;
+    background-color: #f5f8ff;
 }
 
 .logo-img {
@@ -92,54 +93,55 @@ body {
 
 
 .img-workspace {
-    width: 30px;
-    min-width: 30px;
-    height: 30px;
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    box-shadow: 1px 1px 1px #ffffff, 1px -1px 1px #ffffff;
+    /* box-shadow: 1px 1px 1px #ffffff, 1px -1px 1px #ffffff; */
 }
 
 .img-workspace .icons.default-workspace::before {
-    font-size: 1.7rem;
-    color: var(--dark-gray);
+    font-size: 2.3rem;
+    color: #000000;
 }
 
 
 .workspace-wrap {
-    margin-right: 1.2rem;
+    /* margin-right: 1.2rem; */
     width: 160px;
     position: relative;
 }
 
 .workspace-details {
-    background-color: var(--primary-gray);
+    background-color: #d1d4d9;
     border-radius: 2rem;
     cursor: pointer;
     align-items: center;
-    padding: 0.3rem .7rem;
+    /* padding: 0.3rem .7rem; */
 }
 
 .workspace-details .workspace-name {
     position: relative;
     color: #000000 !important;
-    padding: 0.8rem 2.3rem 0.3rem 0.7rem;
+    /* padding: 0.8rem 1.1rem 0.3rem 0.7rem; */
+    padding-left: 0.3rem;
     font-weight: 700;
-    font-size: 0.6rem;
+    font-size: 0.85rem;
     text-overflow: ellipsis;
     overflow: hidden;
 }
 
-.workspace-details .workspace-name::before {
+/* .workspace-details .workspace-name::before {
     position: absolute;
     content: "WORKSPACE";
     color: #000000;
     top: 5px;
     left: 9px;
     font-size: 0.5rem;
-}
+} */
 
 .default-user::before {
     font-size: 3.7rem;
@@ -236,13 +238,13 @@ body {
     width: 225px;
     background-color: #ffffff;
     padding-top: 1rem;
-    height: calc(100vh - 160px);
+    height: 100vh;
 }
 
 .content-section {
     position: relative;
     flex-grow: 1;
-    background-color: var(--primary-gray);
+    /* background-color: var(--primary-gray); */
 }
 
 .sidebar-icon::before,
@@ -266,7 +268,7 @@ body {
 }
 
 .content-section {
-    height: calc(100vh - 80px);
+    height: 100vh;
     overflow-y: auto;
 }
 

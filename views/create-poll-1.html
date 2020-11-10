@@ -16,7 +16,7 @@
 
 <body>
     <div class="container-fluid px-0 h-100">
-      
+     
         <div class="d-flex">
             <div class="sidebar">
                 <nav class="navbar flex-column navbar-expand-sm navbar-light px-0">
@@ -30,7 +30,7 @@
                                     <span class="flaticon-dashboard icons sidebar-icon"></span>
                                     Dashboard</a>
                             </li>
-                            <li class="nav-item active">
+                            <li class="nav-item">
                                 <a class="nav-link" data-toggle="collapse" href="#campaignCollapse" role="button"
                                     aria-expanded="false" aria-controls="campaignCollapse">
                                     <span class="flaticon-stack-of-papers icons sidebar-icon"></span>
@@ -47,7 +47,7 @@
                                     <span class="flaticon-banner icons sidebar-icon"></span>
                                     Leads</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item active">
                                 <a class="nav-link" href="polls.html">
                                     <span class="flaticon-bar-chart icons sidebar-icon"></span>
                                     Polls</a>
@@ -183,194 +183,108 @@
                     <div class="content-header mt-4 mb-3">
                         <div class="d-flex flex-column">
                             <h1 class="title">
-                                New Campaign
+                                Create Poll
                             </h1>
-                            <h6 class="desc">
-                                Select a lead magnet to get started.
-                            </h6>
                         </div>
-
                     </div>
 
-                    <div class="content-header mt-0">
+                    <div class="content-header justify-content-center mt-0">
                         <div class="steps-guide">
                             <span class="first-step active">1</span>
                             <span class="step-value">
-                                PICK A LEAD MAGNET
+                                PICK QUESTION
                             </span>
                             <span class="steps">2</span>
                             <span class="step-value">
-                                PICK AND EDIT TEMPLATE
+                                BUTTON SETTINGS
                             </span>
-                            <span class="steps">3</span>
-                            <span class="step-value">
-                                GO VIRAL
-                            </span>
+
                         </div>
-                        <div class="d-flex">
-                            <div class="mr-3">
 
-                                <select id="category" class="form-control" name="">
-                                    <option value="none" selected>Category</option>
-                                </select>
-
-                            </div>
-                            <form class="form-search"><input class="form-control form-noshadow" type="text"
-                                    placeholder="Find recent Leads">
-                                <button class="btn" type="submit">
-                                    <span class="flaticon-search icons search-icon"></span>
-                                </button>
-                            </form>
-
-                            <div class="dropdown">
-                                <button id="my-dropdown" class="btn btn-filter dropdown-toggle" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false"><span
-                                        class="flaticon-funnel icons-nm filter-icon"></span> Filter</button>
-                                <div class="dropdown-menu" aria-labelledby="my-dropdown">
-                                    <a class="dropdown-item active" href="#">Text</a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
 
-
-                    <div class="row mt-5">
-                        <div class="col-4">
-                            <div class="lead-box">
-                                <span class="flaticon-gear icons-nm setting-icon"></span>
-                                <div class="lead-img">
-                                    <img class="img-fluid" src="" alt="">
-                                </div>
-                                <div class="lead-content">
-                                    <h1 class="title">Lead Title</h1>
-                                    <div class="lead-body">
-                                        Lurem ipsum dolor dulum dele solo menu pulum lurem
-                                        Lurem ipsum dolor dulum dele
+                    <form action="" method="post">
+                        <div class="form-section">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="question-input">Poll Question *</label>
+                                        <input type="text" name="" id="question-input" class="form-control"
+                                            placeholder="Poll Question">
                                     </div>
-                                    <button data-toggle="modal" data-target="#modal-create" class="btn btn-select-lead">Select Lead Magnet</button>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="lead-box">
-                                <span class="flaticon-gear icons-nm setting-icon"></span>
-                                <div class="lead-img">
-                                    <img class="img-fluid" src="" alt="">
-                                </div>
-                                <div class="lead-content">
-                                    <h1 class="title">Lead Title</h1>
-                                    <div class="lead-body">
-                                        Lurem ipsum dolor dulum dele solo menu pulum lurem
-                                        Lurem ipsum dolor dulum dele
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group">
+                                                        <label for="option-one">Option 1 *</label>
+                                                        <input type="text" name="" id="option-one" class="form-control"
+                                                            placeholder="Option 1">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="form-group">
+                                                        <label for="option-two">Option 2 *</label>
+                                                        <input type="text" name="" id="option-two" class="form-control"
+                                                            placeholder="Option 2">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group">
+                                                        <label for="url-option-one">URL</label>
+                                                        <input type="text" name="" id="url-option-one" class="form-control"
+                                                            placeholder="Url">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="form-group">
+                                                        <label for="url-option-two">URL</label>
+                                                        <input type="text" name="" id="url-option-two" class="form-control"
+                                                            placeholder="Url">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-4">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group">
+                                                        <label for="url-option-one">DISPLAY IMAGE</label>
+                                                        <input type="file" name="" id="url-option-one" class="form-control"
+                                                            placeholder="Url">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="form-group">
+                                                        <label for="display-image-two">DISPLAY IMAGE</label>
+                                                        <input type="file" name="" id="display-image-two" class="form-control"
+                                                            placeholder="Url">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <button data-toggle="modal" data-target="#modal-create" class="btn btn-select-lead">Select Lead Magnet</button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
-                            <div class="lead-box">
-                                <span class="flaticon-gear icons-nm setting-icon"></span>
-                                <div class="lead-img">
-                                    <img class="img-fluid" src="" alt="">
-                                </div>
-                                <div class="lead-content">
-                                    <h1 class="title">Lead Title</h1>
-                                    <div class="lead-body">
-                                        Lurem ipsum dolor dulum dele solo menu pulum lurem
-                                        Lurem ipsum dolor dulum dele
-                                    </div>
-                                    <button data-toggle="modal" data-target="#modal-create" class="btn btn-select-lead">Select Lead Magnet</button>
-                                </div>
-                            </div>
+
+                        <div class="d-flex justify-content-end">
+                            <button class="btn btn-create-new">Add more +</button>
+                            <button class="btn btn-next">Next</button>
                         </div>
-                        <div class="col-4">
-                            <div class="lead-box">
-                                <span class="flaticon-gear icons-nm setting-icon"></span>
-                                <div class="lead-img">
-                                    <img class="img-fluid" src="" alt="">
-                                </div>
-                                <div class="lead-content">
-                                    <h1 class="title">Lead Title</h1>
-                                    <div class="lead-body">
-                                        Lurem ipsum dolor dulum dele solo menu pulum lurem
-                                        Lurem ipsum dolor dulum dele
-                                    </div>
-                                    <button data-toggle="modal" data-target="#modal-create" class="btn btn-select-lead">Select Lead Magnet</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="lead-box">
-                                <span class="flaticon-gear icons-nm setting-icon"></span>
-                                <div class="lead-img">
-                                    <img class="img-fluid" src="" alt="">
-                                </div>
-                                <div class="lead-content">
-                                    <h1 class="title">Lead Title</h1>
-                                    <div class="lead-body">
-                                        Lurem ipsum dolor dulum dele solo menu pulum lurem
-                                        Lurem ipsum dolor dulum dele
-                                    </div>
-                                    <button data-toggle="modal" data-target="#modal-create" class="btn btn-select-lead">Select Lead Magnet</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="lead-box">
-                                <span class="flaticon-gear icons-nm setting-icon"></span>
-                                <div class="lead-img">
-                                    <img class="img-fluid" src="" alt="">
-                                </div>
-                                <div class="lead-content">
-                                    <h1 class="title">Lead Title</h1>
-                                    <div class="lead-body">
-                                        Lurem ipsum dolor dulum dele solo menu pulum lurem
-                                        Lurem ipsum dolor dulum dele
-                                    </div>
-                                    <button data-toggle="modal" data-target="#modal-create" class="btn btn-select-lead">Select Lead Magnet</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    </form>
 
 
 
 
 
-                </div>
-            </div>
-
-            <div class="modal fade" id="modal-create" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <!-- <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-                            
-                        </div> -->
-                        <div class="modal-body">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">×</span>
-                            </button>
-                            <div class="error"></div>
-                            <form action="" method="post" id="workspace-form">
-                                <label for="workspace-input">Name Your Campaign</label>
-                                <div class="workspace-input-main">
-                                    <input id="workspace-input" class="form-control form-input" type="text" name="">
-                                    <button class="btn btn-create-workspace">
-                                        CREATE
-                                    </button>
-                                </div>
-                            </form>
-                            <div class="info">
-                                <span class="flaticon-information icons info-icon"></span>
-                                Confused? Click Here to watch a quick demo
-                            </div>
-                        </div>
-                        <!-- <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div> -->
-                    </div>
                 </div>
             </div>
         </div>

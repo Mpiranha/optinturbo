@@ -11,12 +11,11 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/main.css">
-    <title>Campaign</title>
+    <title>Custom domain</title>
 </head>
 
 <body>
     <div class="container-fluid px-0 h-100">
-      
         <div class="d-flex">
             <div class="sidebar">
                 <nav class="navbar flex-column navbar-expand-sm navbar-light px-0">
@@ -30,7 +29,7 @@
                                     <span class="flaticon-dashboard icons sidebar-icon"></span>
                                     Dashboard</a>
                             </li>
-                            <li class="nav-item active">
+                            <li class="nav-item">
                                 <a class="nav-link" data-toggle="collapse" href="#campaignCollapse" role="button"
                                     aria-expanded="false" aria-controls="campaignCollapse">
                                     <span class="flaticon-stack-of-papers icons sidebar-icon"></span>
@@ -57,7 +56,7 @@
                                     <span class="flaticon-link-1 icons sidebar-icon"></span>
                                     All Links</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item active">
                                 <a class="nav-link" data-toggle="collapse" href="#settingsCollapse">
                                     <span class="flaticon-gear icons sidebar-icon"></span>
                                     Settings
@@ -180,197 +179,65 @@
                         </li> -->
                         </ul>
                     </div>
-                    <div class="content-header mt-4 mb-3">
-                        <div class="d-flex flex-column">
-                            <h1 class="title">
-                                New Campaign
-                            </h1>
-                            <h6 class="desc">
-                                Select a lead magnet to get started.
-                            </h6>
-                        </div>
 
-                    </div>
+                    <nav class="nav mt-4 nav-set-steps">
+                        <li class="nav-item">
+                            <a class="nav-link" href="user-setting.html">User Settings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="custom-domain.html">Custom Domain</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="integration.html">Integration</a>
+                        </li>
+                    </nav>
 
-                    <div class="content-header mt-0">
-                        <div class="steps-guide">
-                            <span class="first-step active">1</span>
-                            <span class="step-value">
-                                PICK A LEAD MAGNET
-                            </span>
-                            <span class="steps">2</span>
-                            <span class="step-value">
-                                PICK AND EDIT TEMPLATE
-                            </span>
-                            <span class="steps">3</span>
-                            <span class="step-value">
-                                GO VIRAL
-                            </span>
-                        </div>
-                        <div class="d-flex">
-                            <div class="mr-3">
+                    <h1 class="title">
+                        Custom Domain
+                    </h1>
 
-                                <select id="category" class="form-control" name="">
-                                    <option value="none" selected>Category</option>
-                                </select>
+                    <div class="row">
+                        <div class="col-9">
+                            <div class="domain-step-box">
+                                <h1 class="title">Set up your domain to connect with Optinturbo For Website</h1>
+                                <ol class="domain-setup-steps">
+                                    <li>Log into the account you have with your domain provider.</li>
+                                    <li>Find your DNS settings. Look for your account admin panel or your domain management area, or DNS configuration or similar.</li>
+                                    <li>Edit your A record to point to Optinturbos's IP address <b>165.22.178.113</b>
+                                        <ul>
+                                            <li>The admin panel might feature drop-downs or editable fields, or your might have to check boxes or edit a tale in the admin you need to
+                                                <ul>
+                                                    <li>Enter or choose the @ symbol, or A record</li>
+                                                    <li>Enter Optinturbo's IP address <b>165.22.178.113</b> as the destination for the A record.</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>Save the A Record (click Save, Save Zone File, Add Recorrd or similar) </li>
+                                    <li>Find the CNAME record in your DNS settings.</li>
+                                    <li>Change your www CNAME record to point to <b>cikrd.co</b></li>
+                                    <li>Save the CNAME Record (usually by clicking Save or Add record or similar).</li>
+                                    <li>Your website URL (Example <b>https://www.example.com</b> or <b>https://example.com</b>).</li>
+                                </ol>
 
-                            </div>
-                            <form class="form-search"><input class="form-control form-noshadow" type="text"
-                                    placeholder="Find recent Leads">
-                                <button class="btn" type="submit">
-                                    <span class="flaticon-search icons search-icon"></span>
-                                </button>
-                            </form>
-
-                            <div class="dropdown">
-                                <button id="my-dropdown" class="btn btn-filter dropdown-toggle" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false"><span
-                                        class="flaticon-funnel icons-nm filter-icon"></span> Filter</button>
-                                <div class="dropdown-menu" aria-labelledby="my-dropdown">
-                                    <a class="dropdown-item active" href="#">Text</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="row mt-5">
-                        <div class="col-4">
-                            <div class="lead-box">
-                                <span class="flaticon-gear icons-nm setting-icon"></span>
-                                <div class="lead-img">
-                                    <img class="img-fluid" src="" alt="">
-                                </div>
-                                <div class="lead-content">
-                                    <h1 class="title">Lead Title</h1>
-                                    <div class="lead-body">
-                                        Lurem ipsum dolor dulum dele solo menu pulum lurem
-                                        Lurem ipsum dolor dulum dele
+                                <form action="" method="post">
+                                    <div class="form-group">
+                                      <input type="text" class="form-control" name="" id="" placeholder="">
                                     </div>
-                                    <button data-toggle="modal" data-target="#modal-create" class="btn btn-select-lead">Select Lead Magnet</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="lead-box">
-                                <span class="flaticon-gear icons-nm setting-icon"></span>
-                                <div class="lead-img">
-                                    <img class="img-fluid" src="" alt="">
-                                </div>
-                                <div class="lead-content">
-                                    <h1 class="title">Lead Title</h1>
-                                    <div class="lead-body">
-                                        Lurem ipsum dolor dulum dele solo menu pulum lurem
-                                        Lurem ipsum dolor dulum dele
-                                    </div>
-                                    <button data-toggle="modal" data-target="#modal-create" class="btn btn-select-lead">Select Lead Magnet</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="lead-box">
-                                <span class="flaticon-gear icons-nm setting-icon"></span>
-                                <div class="lead-img">
-                                    <img class="img-fluid" src="" alt="">
-                                </div>
-                                <div class="lead-content">
-                                    <h1 class="title">Lead Title</h1>
-                                    <div class="lead-body">
-                                        Lurem ipsum dolor dulum dele solo menu pulum lurem
-                                        Lurem ipsum dolor dulum dele
-                                    </div>
-                                    <button data-toggle="modal" data-target="#modal-create" class="btn btn-select-lead">Select Lead Magnet</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="lead-box">
-                                <span class="flaticon-gear icons-nm setting-icon"></span>
-                                <div class="lead-img">
-                                    <img class="img-fluid" src="" alt="">
-                                </div>
-                                <div class="lead-content">
-                                    <h1 class="title">Lead Title</h1>
-                                    <div class="lead-body">
-                                        Lurem ipsum dolor dulum dele solo menu pulum lurem
-                                        Lurem ipsum dolor dulum dele
-                                    </div>
-                                    <button data-toggle="modal" data-target="#modal-create" class="btn btn-select-lead">Select Lead Magnet</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="lead-box">
-                                <span class="flaticon-gear icons-nm setting-icon"></span>
-                                <div class="lead-img">
-                                    <img class="img-fluid" src="" alt="">
-                                </div>
-                                <div class="lead-content">
-                                    <h1 class="title">Lead Title</h1>
-                                    <div class="lead-body">
-                                        Lurem ipsum dolor dulum dele solo menu pulum lurem
-                                        Lurem ipsum dolor dulum dele
-                                    </div>
-                                    <button data-toggle="modal" data-target="#modal-create" class="btn btn-select-lead">Select Lead Magnet</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="lead-box">
-                                <span class="flaticon-gear icons-nm setting-icon"></span>
-                                <div class="lead-img">
-                                    <img class="img-fluid" src="" alt="">
-                                </div>
-                                <div class="lead-content">
-                                    <h1 class="title">Lead Title</h1>
-                                    <div class="lead-body">
-                                        Lurem ipsum dolor dulum dele solo menu pulum lurem
-                                        Lurem ipsum dolor dulum dele
-                                    </div>
-                                    <button data-toggle="modal" data-target="#modal-create" class="btn btn-select-lead">Select Lead Magnet</button>
+                                    <button class="btn btn-add-domain">Add</button>
+                                </form>
+
+                                <div class="note-box">
+                                    Note: After comilation of below steps your domain will be linked and website will be live in 24 hours.
                                 </div>
                             </div>
                         </div>
                     </div>
+                    
 
 
 
 
-
-                </div>
-            </div>
-
-            <div class="modal fade" id="modal-create" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <!-- <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-                            
-                        </div> -->
-                        <div class="modal-body">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">×</span>
-                            </button>
-                            <div class="error"></div>
-                            <form action="" method="post" id="workspace-form">
-                                <label for="workspace-input">Name Your Campaign</label>
-                                <div class="workspace-input-main">
-                                    <input id="workspace-input" class="form-control form-input" type="text" name="">
-                                    <button class="btn btn-create-workspace">
-                                        CREATE
-                                    </button>
-                                </div>
-                            </form>
-                            <div class="info">
-                                <span class="flaticon-information icons info-icon"></span>
-                                Confused? Click Here to watch a quick demo
-                            </div>
-                        </div>
-                        <!-- <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div> -->
-                    </div>
                 </div>
             </div>
         </div>

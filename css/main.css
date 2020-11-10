@@ -11,6 +11,10 @@
     margin-left: 0.5rem;
 }
 
+.navbar .navbar-brand {
+    margin-bottom: 1rem;
+}
+
 .shorten-form-group {
     display: flex;
     border-radius: 1.5rem;
@@ -481,7 +485,7 @@ tbody tr:hover {
 }
 
 .copy-link-wrap {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     background-color: #ebeef5;
     padding: 0.4rem;
@@ -558,7 +562,8 @@ tr:hover .copy-link-wrap {
     border-radius: 50%;
 }
 
-.steps-guide .first-step.active, .steps-guide .steps.active {
+.steps-guide .first-step.active,
+.steps-guide .steps.active {
     background-color: #6964d2;
     color: #fdfefe;
 }
@@ -765,7 +770,7 @@ label[for=workspace-input] {
     border-radius: 0.7rem;
     position: relative;
     margin-bottom: 1rem;
-    
+
 }
 
 .preview-box .preview-actions {
@@ -779,7 +784,7 @@ label[for=workspace-input] {
     bottom: 0;
     background-color: #0000004a;
     border-radius: 0.7rem;
-   
+
 }
 
 .preview-actions .btn {
@@ -803,4 +808,461 @@ label[for=workspace-input] {
 
 .preview-box:hover .preview-actions {
     display: flex;
+}
+
+.top-head {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.editor-menu {
+    background-color: #e1e5fe;
+    border-radius: 1rem;
+    margin-right: 2rem;
+}
+
+.editor-menu .nav-link {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.75rem;
+    color: #000000;
+}
+
+.editor-menu .nav-link.active {
+    background-color: #8f6fe5;
+    color: #ffffff;
+    border-radius: 1rem;
+}
+
+.editor-section {
+    flex: 75%;
+    height: calc(100vh - 100px);
+}
+
+.tool-section {
+    flex: 25%;
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+}
+
+.tool-section .title {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.tool-item {
+    position: relative;
+    flex-grow: 1;
+    padding: 0 0.5rem;
+}
+
+.info-tool::before {
+    font-size: 0.9rem;
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    font-weight: 600;
+}
+
+.tool-item .btn-tool {
+    padding: 0.15rem 0.9rem;
+    margin-right: 0.3rem;
+}
+
+.tool-item .btn-tool span::before {
+    font-size: 0.7rem;
+    color: #ffffff;
+}
+
+.info-desc-icon::before {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
+
+.tool-section .form-control {
+    font-size: 0.8rem;
+}
+
+.btn-tool:first-child {
+    background-color: #5ac937;
+}
+
+.btn-tool:last-child {
+    background-color: #f5527d;
+}
+
+#bg-color {
+    width: 42px;
+    height: 20px;
+    background-color: #fafafb;
+    border: 1px solid #cccccc;
+    border-radius: 0.3rem;
+}
+
+#color-code {
+    margin-left: 1rem;
+    font-size: 0.8rem;
+}
+
+.tool-section label {
+    font-size: 0.8rem;
+}
+
+.go-viral-modal img {
+    width: 100px;
+}
+
+.connected-medias {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 2rem;
+    justify-content: flex-end;
+}
+
+.connected-medias .media-box {
+    position: relative;
+    width: 70px;
+    margin-bottom: 2.5rem;
+}
+
+.media-box .checked-icon::before {
+    color: #35f535;
+    font-size: 1rem;
+    position: absolute;
+    right: -9px;
+    bottom: -9px;
+}
+
+.schedule-form {
+    flex-grow: 1;
+    padding: 0 1rem;
+}
+
+
+.schedule-form .title {
+    font-size: 0.9rem;
+    color: #808080;
+    font-weight: 500;
+}
+
+.schedule-form label {
+    font-size: 0.8rem;
+}
+
+.upload-wrap-thumb {
+    position: relative;
+    cursor: pointer;
+}
+
+.thumb-input,
+#profile-image-input {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.schedule-form .header {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.btn-post {
+    color: #ffffff;
+    background-color: #b374ea;
+    border-radius: 1rem;
+    padding: 0.35rem 1.5rem;
+}
+
+.embed-form label {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.form-section {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.form-section label {
+    font-size: 0.8rem;
+}
+
+.form-section input {
+    font-size: 0.8rem;
+}
+
+.btn-light,
+.btn-next {
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 0.35rem 1.4rem;
+}
+
+.btn-next {
+    background-color: #9e65cd;
+    color: #ffffff;
+    border-radius: 1rem;
+}
+
+.form-section .heading {
+    font-size: 0.9rem;
+}
+
+.nav-set-steps {
+    background-color: #e1e5fe;
+    display: inline-flex;
+    border-radius: 1rem;
+}
+
+.nav-set-steps .nav-link {
+    font-size: 0.8rem;
+    color: #ad67ce;
+    padding: 0.3rem 1.5rem;
+}
+
+.nav-set-steps .nav-link.active {
+    background-color: #ad67ce;
+    color: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 3px #d5bef4;
+}
+
+.nav-set-steps~.title,
+h1.title.social {
+    font-size: 0.9rem;
+    margin: 1.5rem 0;
+}
+
+.setting-box {
+    background-color: #ffffff;
+    border-radius: 0.3rem;
+    padding: 2rem;
+    box-shadow: 0px 1px 4px #9e9898;
+}
+
+.setting-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.setting-form input {
+    font-size: 0.8rem;
+    width: 70%;
+}
+
+.setting-form input.disabled {
+    background-color: #e8ecef;
+    color: #a8abba;
+}
+
+.setting-form label {
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+.setting-action {
+    margin-left: 12.2rem;
+}
+
+.btn-change-pwd {
+    font-size: 0.8rem;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 0.3rem;
+    background-color: #ffffff;
+}
+
+.profile-image {
+    position: relative;
+    background-color: #ffffff;
+    padding: 0.4rem;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 1.5rem;
+    cursor: pointer;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    border: 1px solid #000000;
+}
+
+.add-img-icon::before {
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+    font-size: 1.3rem;
+}
+
+.domain-step-box {
+    background-color: #ffffff;
+    border-radius: 0.3rem;
+    padding: 1.2rem 0.5rem;
+    margin-bottom: 3rem;
+}
+
+.domain-step-box .title {
+    font-size: 0.9rem;
+    font-weight: 600;
+
+}
+
+
+.domain-step-box .domain-setup-steps {
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+}
+
+.domain-step-box .domain-setup-steps b {
+    color: #ff0000;
+}
+
+.btn-add-domain {
+    color: #ffffff;
+    background-color: #5ac937;
+}
+
+.domain-step-box input,
+.domain-step-box button {
+    font-size: 0.8rem;
+    margin-left: 1.5rem;
+}
+
+.domain-step-box input {
+    width: 70%;
+}
+
+.note-box {
+    background-color: #fff1cd;
+    color: #bca977;
+    font-size: 0.7rem;
+    margin: 1.5rem 0 2rem 1.5rem;
+    display: inline-block;
+    padding: 0.5rem;
+    font-weight: 600;
+
+}
+
+.integration-box {
+    background-color: #ffffff;
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.integration-box:hover {
+    background-color: #efefef;
+    box-shadow: -2px -1px 14px #d1d4db;
+}
+
+.integration-box img {
+    width: 80px;
+    height: 80px;
+}
+
+.integration-box .title {
+    font-size: 0.7rem;
+    margin-top: 0.8rem;
+}
+
+.social-box {
+    background-color: #ffffff;
+    padding: 0.5rem;
+    box-shadow: 1px 1px 3px #e8d8fe;
+    border-radius: 0.3rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.social-box .title {
+    font-size: 1rem;
+    margin-bottom: 0rem;
+}
+
+.social-box .desc {
+    display: inline-block;
+    padding: 0.1rem 0.5rem;
+    border-radius: 0.3rem;
+    font-size: 0.7rem;
+    color: #ffffff;
+}
+
+
+.social-box.facebook .desc {
+    background-color: #3c5497;
+}
+
+.social-box.twitter .desc {
+    background-color: #51abee;
+}
+
+.social-box.pinterest .desc {
+    background-color: #ec3f32;
+
+}
+
+.social-table-wrap {
+    background-color: #ffffff;
+    border-radius: 0.3rem;
+    padding: 1.3rem;
+}
+
+.social-table-wrap label,
+.social-table-wrap .entry-input,
+.social-table-wrap .search-enries {
+    font-size: 0.8rem;
+}
+
+.social-table-wrap .entry-input {
+    width: 4rem;
+}
+
+.social-table-wrap table {
+    font-size: 0.8rem;
+}
+
+.social-table-wrap table td {
+    vertical-align: middle;
+}
+
+.account-action {
+    display: flex;
+    align-items: center;
+}
+
+.account-action .btn-active {
+    background-color: transparent;
+    font-size: 0.8rem;
+    color: #e8ecef;
+}
+
+.account-action .btn-deactivate {
+    background-color: #f5568a;
+    font-size: 0.8rem;
+    border-radius: 1rem;
+    color: #ffffff;
+}
+
+.entries-footer {
+    margin: 1.5rem 0;
+    align-items: center;
+}
+
+.entries-footer .desc {
+    font-size: 0.8rem;
+    color: #a8abba;
 }

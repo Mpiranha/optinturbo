@@ -11,12 +11,34 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/main.css">
-    <title>Campaign</title>
+    <title>Social Account</title>
 </head>
 
 <body>
     <div class="container-fluid px-0 h-100">
-      
+        <!-- <nav class="navbar navbar-expand-sm navbar-light main-nav">
+            <a class="navbar-brand" href="#">
+                <img class="logo-img" src="../img/logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation"></button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav menu ml-auto">
+                    <li class="nav-item">
+                        <div class="workspace-wrap">
+                            <div class="d-flex workspace-details">
+                                <div class="img-workspace">
+                                    <span class="flaticon-user-1 icons default-workspace"></span>
+                                </div>
+                                <div class="workspace-name nav-link" title="Artculture BMC">Artculture BMC</div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </nav> -->
         <div class="d-flex">
             <div class="sidebar">
                 <nav class="navbar flex-column navbar-expand-sm navbar-light px-0">
@@ -30,7 +52,7 @@
                                     <span class="flaticon-dashboard icons sidebar-icon"></span>
                                     Dashboard</a>
                             </li>
-                            <li class="nav-item active">
+                            <li class="nav-item">
                                 <a class="nav-link" data-toggle="collapse" href="#campaignCollapse" role="button"
                                     aria-expanded="false" aria-controls="campaignCollapse">
                                     <span class="flaticon-stack-of-papers icons sidebar-icon"></span>
@@ -180,214 +202,144 @@
                         </li> -->
                         </ul>
                     </div>
-                    <div class="content-header mt-4 mb-3">
-                        <div class="d-flex flex-column">
-                            <h1 class="title">
-                                New Campaign
-                            </h1>
-                            <h6 class="desc">
-                                Select a lead magnet to get started.
-                            </h6>
-                        </div>
+                    <h1 class="title social">
+                        Social Account
+                    </h1>
 
-                    </div>
-
-                    <div class="content-header mt-0">
-                        <div class="steps-guide">
-                            <span class="first-step active">1</span>
-                            <span class="step-value">
-                                PICK A LEAD MAGNET
-                            </span>
-                            <span class="steps">2</span>
-                            <span class="step-value">
-                                PICK AND EDIT TEMPLATE
-                            </span>
-                            <span class="steps">3</span>
-                            <span class="step-value">
-                                GO VIRAL
-                            </span>
-                        </div>
-                        <div class="d-flex">
-                            <div class="mr-3">
-
-                                <select id="category" class="form-control" name="">
-                                    <option value="none" selected>Category</option>
-                                </select>
-
-                            </div>
-                            <form class="form-search"><input class="form-control form-noshadow" type="text"
-                                    placeholder="Find recent Leads">
-                                <button class="btn" type="submit">
-                                    <span class="flaticon-search icons search-icon"></span>
-                                </button>
-                            </form>
-
-                            <div class="dropdown">
-                                <button id="my-dropdown" class="btn btn-filter dropdown-toggle" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false"><span
-                                        class="flaticon-funnel icons-nm filter-icon"></span> Filter</button>
-                                <div class="dropdown-menu" aria-labelledby="my-dropdown">
-                                    <a class="dropdown-item active" href="#">Text</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="row mt-5">
+                    <div class="row">
                         <div class="col-4">
-                            <div class="lead-box">
-                                <span class="flaticon-gear icons-nm setting-icon"></span>
-                                <div class="lead-img">
-                                    <img class="img-fluid" src="" alt="">
-                                </div>
-                                <div class="lead-content">
-                                    <h1 class="title">Lead Title</h1>
-                                    <div class="lead-body">
-                                        Lurem ipsum dolor dulum dele solo menu pulum lurem
-                                        Lurem ipsum dolor dulum dele
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="social-box facebook">
+                                        <p class="title">Facebook</p>
+                                        <div class="desc">
+                                            1 account(s)
+                                        </div>
                                     </div>
-                                    <button data-toggle="modal" data-target="#modal-create" class="btn btn-select-lead">Select Lead Magnet</button>
+                                </div>
+                                <div class="col-12">
+                                    <div class="social-box twitter">
+                                        <p class="title">Twitter</p>
+                                        <div class="desc">
+                                            1 account(s)
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="social-box pinterest">
+                                        <p class="title">Pinterest</p>
+                                        <div class="desc">
+                                            0 account(s)
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
-                            <div class="lead-box">
-                                <span class="flaticon-gear icons-nm setting-icon"></span>
-                                <div class="lead-img">
-                                    <img class="img-fluid" src="" alt="">
+                        <div class="col-8">
+                            <div class="social-table-wrap">
+                                <div class="d-flex justify-content-end">
+                                    <button class="btn btn-next">Add Account +</button>
                                 </div>
-                                <div class="lead-content">
-                                    <h1 class="title">Lead Title</h1>
-                                    <div class="lead-body">
-                                        Lurem ipsum dolor dulum dele solo menu pulum lurem
-                                        Lurem ipsum dolor dulum dele
+                                <div class="d-flex justify-content-between my-3">
+                                    <div class="d-flex align-items-center">
+                                      <label for="" class="mb-0 mr-2">Show Entries</label>
+                                      <input value="2" type="number" class="form-control entry-input" name="" id="" placeholder="">
                                     </div>
-                                    <button data-toggle="modal" data-target="#modal-create" class="btn btn-select-lead">Select Lead Magnet</button>
+                                    <div class="d-flex align-items-center">
+                                        <label for="" class="mb-0 mr-2">Search</label>
+                                        <input type="number" class="form-control search-enries" name="" id="" placeholder="Search">
+                                      </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="lead-box">
-                                <span class="flaticon-gear icons-nm setting-icon"></span>
-                                <div class="lead-img">
-                                    <img class="img-fluid" src="" alt="">
-                                </div>
-                                <div class="lead-content">
-                                    <h1 class="title">Lead Title</h1>
-                                    <div class="lead-body">
-                                        Lurem ipsum dolor dulum dele solo menu pulum lurem
-                                        Lurem ipsum dolor dulum dele
-                                    </div>
-                                    <button data-toggle="modal" data-target="#modal-create" class="btn btn-select-lead">Select Lead Magnet</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="lead-box">
-                                <span class="flaticon-gear icons-nm setting-icon"></span>
-                                <div class="lead-img">
-                                    <img class="img-fluid" src="" alt="">
-                                </div>
-                                <div class="lead-content">
-                                    <h1 class="title">Lead Title</h1>
-                                    <div class="lead-body">
-                                        Lurem ipsum dolor dulum dele solo menu pulum lurem
-                                        Lurem ipsum dolor dulum dele
-                                    </div>
-                                    <button data-toggle="modal" data-target="#modal-create" class="btn btn-select-lead">Select Lead Magnet</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="lead-box">
-                                <span class="flaticon-gear icons-nm setting-icon"></span>
-                                <div class="lead-img">
-                                    <img class="img-fluid" src="" alt="">
-                                </div>
-                                <div class="lead-content">
-                                    <h1 class="title">Lead Title</h1>
-                                    <div class="lead-body">
-                                        Lurem ipsum dolor dulum dele solo menu pulum lurem
-                                        Lurem ipsum dolor dulum dele
-                                    </div>
-                                    <button data-toggle="modal" data-target="#modal-create" class="btn btn-select-lead">Select Lead Magnet</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="lead-box">
-                                <span class="flaticon-gear icons-nm setting-icon"></span>
-                                <div class="lead-img">
-                                    <img class="img-fluid" src="" alt="">
-                                </div>
-                                <div class="lead-content">
-                                    <h1 class="title">Lead Title</h1>
-                                    <div class="lead-body">
-                                        Lurem ipsum dolor dulum dele solo menu pulum lurem
-                                        Lurem ipsum dolor dulum dele
-                                    </div>
-                                    <button data-toggle="modal" data-target="#modal-create" class="btn btn-select-lead">Select Lead Magnet</button>
+
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Name</th>
+                                            <th>Account</th>
+                                            <th>Created At</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td scope="row">1</td>
+                                            <td>Nick Anthonio</td>
+                                            <td>Facebook</td>
+                                            <td>25/01/2020</td>
+                                            <td>
+                                                <div class="account-action">
+                                                    <button class="btn btn-active">Active</button>
+                                                    <button class="btn btn-deactivate">Deactive</button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">2</td>
+                                            <td>Njem Austine</td>
+                                            <td>Twitter</td>
+                                            <td>26/01/2020</td>
+                                            <td>
+                                                <div class="account-action">
+                                                    <button class="btn btn-active">Active</button>
+                                                    <button class="btn btn-deactivate">Deactive</button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                         
+                                    </tbody>
+                                </table>
+
+                                <div class="d-flex justify-content-between entries-footer">
+                                    <div class="desc">Showing 1 of 2 or 2 entries</div>
+                                    <nav aria-label="Page navigation" class="navigation">
+                                        <ul class="pagination justify-content-end">
+                                            <li class="page-item">
+                                                <a class="page-link" href="#" aria-label="Previous">
+                                                    <span aria-hidden="true">«</span>
+                                                    <span class="sr-only">Previous</span>
+                                                </a>
+                                            </li>
+                                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                            <li class="page-item">
+                                                <a class="page-link" href="#" aria-label="Next">
+                                                    <span aria-hidden="true">»</span>
+                                                    <span class="sr-only">Next</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
                                 </div>
                             </div>
                         </div>
                     </div>
-
 
 
 
 
                 </div>
-            </div>
 
-            <div class="modal fade" id="modal-create" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <!-- <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-                            
-                        </div> -->
-                        <div class="modal-body">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">×</span>
-                            </button>
-                            <div class="error"></div>
-                            <form action="" method="post" id="workspace-form">
-                                <label for="workspace-input">Name Your Campaign</label>
-                                <div class="workspace-input-main">
-                                    <input id="workspace-input" class="form-control form-input" type="text" name="">
-                                    <button class="btn btn-create-workspace">
-                                        CREATE
-                                    </button>
-                                </div>
-                            </form>
-                            <div class="info">
-                                <span class="flaticon-information icons info-icon"></span>
-                                Confused? Click Here to watch a quick demo
-                            </div>
-                        </div>
-                        <!-- <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div> -->
-                    </div>
-                </div>
+
+
+
+
             </div>
         </div>
+    </div>
 
 
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-        </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-        </script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-        </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
 
 
-        <script src="../js/script.js"></script>
+    <script src="../js/script.js"></script>
 
 
 </body>
