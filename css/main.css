@@ -95,7 +95,7 @@ tbody tr:hover {
 
 .table-more-action .btn-action-viral {
     background-color: #f2eefd;
-    color: #a873ea;
+    color: #8d26e0;
     font-weight: 600;
 }
 
@@ -113,8 +113,7 @@ tbody tr:hover {
 }
 
 .table-actions a {
-    color: #8f6fe5;
-
+    color: #8d26e0;
 }
 
 .table-actions a:not(:last-child) {
@@ -210,7 +209,7 @@ tbody tr:hover {
     width: 11px;
     height: 11px;
     border-radius: 0.2rem;
-    background-color: #9e65cd;
+    background-color: #8d26e0;
 }
 
 #piediv {
@@ -534,7 +533,7 @@ tr:hover .copy-link-wrap {
 }
 
 .btn-navigate.active {
-    background-color: #ab7af8;
+    background-color: #8d26e0;
     color: #f2c7fc;
 }
 
@@ -1008,7 +1007,7 @@ label[for=workspace-input] {
 }
 
 .btn-next {
-    background-color: #9e65cd;
+    background-color: #8d26e0;
     color: #ffffff;
     border-radius: 1rem;
 }
@@ -1025,12 +1024,12 @@ label[for=workspace-input] {
 
 .nav-set-steps .nav-link {
     font-size: 0.8rem;
-    color: #ad67ce;
+    color: #8d26e0;
     padding: 0.3rem 1.5rem;
 }
 
 .nav-set-steps .nav-link.active {
-    background-color: #ad67ce;
+    background-color: #8d26e0;
     color: #ffffff;
     border-radius: 1rem;
     box-shadow: 1px 1px 3px #d5bef4;
