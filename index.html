@@ -9,6 +9,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/main.css">
     <title>Dashboard</title>
@@ -626,7 +627,7 @@
                 dateAxis.renderer.grid.template.location = 0;
                 dateAxis.renderer.minGridDistance = 50;
                 var valueAxis = columnChart.yAxes.push(new am4charts.ValueAxis());
-                
+
                 // Create series
                 var series = columnChart.series.push(new am4charts.LineSeries());
                 series.dataFields.valueY = "value";
