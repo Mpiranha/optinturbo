@@ -104,6 +104,7 @@
                     <div class="d-flex align-item-end my-3">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
+                                <a href="views/user-setting.html">
                                 <div class="workspace-wrap">
                                     <div class="d-flex workspace-details">
                                         <div class="img-workspace">
@@ -112,6 +113,7 @@
                                         <div class="workspace-name nav-link" title="Artculture BMC">Artculture BMC</div>
                                     </div>
                                 </div>
+                            </a>
                             </li>
                             <!-- <li class="nav-item">
                             <a class="nav-link" href="#">
@@ -623,10 +625,13 @@
                 columnChart.dateFormatter.inputDateFormat = "yyyy-MM-dd";
 
                 // Create axes
+                var axesFontSize = 10;
                 var dateAxis = columnChart.xAxes.push(new am4charts.DateAxis());
                 dateAxis.renderer.grid.template.location = 0;
                 dateAxis.renderer.minGridDistance = 50;
+                dateAxis.renderer.labels.template.fontSize = axesFontSize;
                 var valueAxis = columnChart.yAxes.push(new am4charts.ValueAxis());
+                valueAxis.renderer.labels.template.fontSize = axesFontSize;
 
                 // Create series
                 var series = columnChart.series.push(new am4charts.LineSeries());
@@ -636,8 +641,11 @@
                 // series.stroke = am4core.color("#d5cbdd");
                 // series.propertyFields.fill = "#f2e7fb";
                 series.strokeWidth = 2;
-                series.fillOpacity = 0.5;
-                // series.minBulletDistance = 15;
+                series.stroke = "#8d26e0"
+                series.fill = "#f2e7fb"
+                series.fillOpacity = 1;
+                series.fontSize = 10;
+                //  series.minBulletDistance = 15;
 
                 // // Drop-shaped tooltips
                 // series.tooltip.background.cornerRadius = 20;
@@ -654,9 +662,7 @@
                 // bullet.circle.radius = 4;
                 // bullet.circle.fill = am4core.color("#fff");
 
-                // var bullethover = bullet.states.create("hover");
-                // bullethover.properties.scale = 1.3;
-
+       
                 // // Make a panning cursor
                 // columnChart.cursor = new am4charts.XYCursor();
                 // columnChart.cursor.behavior = "panXY";
@@ -687,8 +693,12 @@
 
                 var bullet = series.bullets.push(new am4charts.CircleBullet());
                 bullet.circle.radius = 2;
-                bullet.circle.fill = am4core.color("#d5cbdd");
+                bullet.circle.fill = am4core.color("#8d26e0");
                 bullet.circle.strokeWidth = 2;
+
+                var bullethover = bullet.states.create("hover");
+                bullethover.properties.scale = 1.3;
+
 
 
             }); // end am4core.ready()

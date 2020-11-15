@@ -772,6 +772,11 @@ label[for=workspace-input] {
 
 }
 
+.preview-box img {
+    height: 100% !important;
+    width: 100%;
+}
+
 .preview-box .preview-actions {
     display: none;
     position: absolute;
